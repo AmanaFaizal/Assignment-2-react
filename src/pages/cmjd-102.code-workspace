@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../SpringBoot/posdatabase"
+		},
+		{
+			"path": "../../../ProductApp"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {}
+}

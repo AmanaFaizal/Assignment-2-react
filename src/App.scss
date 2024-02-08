@@ -1,0 +1,125 @@
+
+$primary: #1c9466;
+
+$border-radius: 25px;
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(97, 95, 92);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.navbar-link{
+    color: #efe9f0;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.navbar-link:hover{
+    color: #f5ea89;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-left: 50%;
+    margin-top: 10%;
+} 
+.login-box {
+    width: 400px;
+    background:linear-gradient(
+        to right,
+        rgb(85, 88, 88),
+        rgb(132, 133, 153),
+        rgb(80, 82, 83)
+    );
+    color: #e8e6e9;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+.login-box h1{
+    font-size: 35px;
+    text-align: center;
+    color: #000;
+}
+.form-group{
+    width: 98%;
+    height: 30px;
+    margin: 30px 4px;
+}
+.form-control{
+    width: 98%;
+    height: 100%;
+    border: 1px solid #30003a;
+    border-radius: 20px;
+
+}
+.btn-primary{
+    width: 50%;
+    height: 40px;
+    background: #e8e6e9;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 20%;
+}
+
+.register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #054077;
+}
+
+.create-box{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.btn{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.row-left{
+    width: 50%;
+    float: left;
+}
+.row-right{
+    width: 50%;
+    float: right;
+}
+.table-stripped{
+    width: 400px;
+    border: 1px solid #30003a;
+}
+
+.table-stripped {
+    text-align: center;
+}
+
+.input-group-text{
+    font-weight: bold;
+    width: 160px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
